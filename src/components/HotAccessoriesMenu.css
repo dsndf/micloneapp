@@ -1,0 +1,19 @@
+.Hotacc{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* padding: 10px; */
+height: 51px;
+
+}
+.Hotacc>a{
+    margin: 0 20px;
+     text-decoration: none;
+     color: black;
+    padding: 10px;
+}
+.Hotacc>a:hover{
+border-bottom:0.3px solid  rgb(255, 101, 19);
+color:  rgb(255, 101, 19);
+}

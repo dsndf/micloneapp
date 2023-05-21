@@ -1,0 +1,7 @@
+.navopt{
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+    border-top: 1px solid rgb(197, 197, 197);
+    /* align-items: center; */
+}

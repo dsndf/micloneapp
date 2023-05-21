@@ -1,0 +1,20 @@
+.outercont{
+    /* border:2px solid red;#e2e2e247 */
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    
+}
+
+
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+.cont1 img:hover, .cont2 img:hover {
+    box-shadow:  6px 6px 15px rgba(53,53,53,0.363);
+    transition: all 0.5s;
+
+}

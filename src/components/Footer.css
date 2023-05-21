@@ -1,0 +1,125 @@
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+    background-color: #fff;
+}
+
+.Footer svg{
+    /* border: 1px solid red; */
+    fill:#b2b2b2;
+    margin: 0 10px;
+}
+.Footer .b1{ 
+    /* border: 1px solid green; */
+    padding: 10px 0px;
+    display: flex;
+}
+.Footer .b1>div>p:last-child{
+    color: #b2b2b2;
+
+}
+.Footer .b1:hover div>p:last-child , .Footer .b1:hover svg{
+    color: rgb(0, 0, 0);
+    fill: black;
+    cursor: pointer;
+}
+
+
+.Footer .b1>div{
+    /* border: 1px solid red; */
+}
+
+
+/* fOOTER1 */
+.Footer1{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+}
+.Footer1 small{
+    font-weight: 500;
+    color: #959595;
+    
+}
+.Footer1>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+.Footer1>div:nth-child(2) input{
+    margin-bottom: 10px;
+    padding: 10px 0;
+  outline: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.icons svg{
+    margin: 10px;
+    fill: #959595 ;
+    cursor: pointer;
+
+}
+.icons svg:last-child{
+    width: 35px;
+    
+   
+}
+.Footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#191919;
+    color: white;
+    padding: 100px 100px;
+}
+.Footer2>div>h5{
+    color: grey;
+    font-size: 17px;
+}
+.Footer2>div>p{
+    color: rgb(177, 176, 176);
+    font-size: 14px;
+}
+.Footer2>div>button{
+
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 30px   
+}
+.Footer2>div>button:hover{
+transition: all 0.5s;
+background-color: #fff;
+color: black;
+ 
+}
+.preFooter2{
+    background-color:#191919;
+    color: rgb(177, 176, 176);
+
+/* border:2px solid red; */
+padding: 0 100px;
+}
+
+.preFooter2>div:last-child{
+    padding: 0px 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-items: center; */
+    padding-top: 20px;
+    font-size: 14px;
+  
+height: 100px;
+}

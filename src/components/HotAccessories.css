@@ -1,0 +1,18 @@
+
+.HotAccessories{
+    display: flex;
+    margin: 20px;
+    transition: all 0.5s;
+    padding: 0 56px;}
+.c2{
+display: flex;
+flex-wrap: wrap;
+
+}
+.HotAccessories>a:hover{
+    box-shadow:  6px 6px 15px rgba(53,53,53,0.363);
+transition: all 0.5s;
+}
+.HotAccessories>a{
+background-color: #fff;
+}
